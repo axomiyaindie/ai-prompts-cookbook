@@ -6,7 +6,7 @@ Unlike random prompt dumps, every recipe follows a consistent template: the prom
 
 ## Table of Contents
 
-- [Structure](#structure)
+- [Structure](STRUCTURE.md)
 - [How to Use](#how-to-use)
 - [Prompts by Category](#prompts-by-category)
   - [Coding](#coding)
@@ -16,23 +16,6 @@ Unlike random prompt dumps, every recipe follows a consistent template: the prom
   - [Platform](#platform)
 - [Patterns](#patterns)
 - [Contributing](#contributing)
-- [License](#license)
-
-## Structure
-
-```text
-.
-├── prompts/          Ready-to-use prompts by category
-│   ├── coding/
-│   ├── writing/
-│   ├── data/
-│   ├── image/
-│   └── platform/
-├── patterns/         Reusable techniques behind reliable prompts
-├── templates/        The blank recipe template used for contributions
-├── CONTRIBUTING.md   Contribution guidelines
-└── LICENSE           MIT license
-```
 
 ## How to Use
 
@@ -41,6 +24,8 @@ Unlike random prompt dumps, every recipe follows a consistent template: the prom
 3. Copy the prompt.
 4. Replace the `{{PLACEHOLDERS}}` with your own content.
 5. Paste into your AI tool (ChatGPT, Claude, Cursor, Midjourney, etc.).
+
+See [STRUCTURE.md](STRUCTURE.md) for how the repository is organized.
 
 ## Prompts by Category
 
@@ -87,6 +72,8 @@ Unlike random prompt dumps, every recipe follows a consistent template: the prom
 
 Please follow the format in [templates/prompt-template.md](templates/prompt-template.md). Prompts should be tested and include a "Why It Works" section. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## License
+---
 
-[MIT](LICENSE)
+<p align="center">
+  Released under the <a href="LICENSE">MIT License</a>
+</p>
